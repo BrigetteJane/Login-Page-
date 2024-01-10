@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/905a42ee69.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Black+Han+Sans&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+</head>
+<body>
+<div id="wrapper">
+    <header id="header">
+        <div class="logo">
+          <img id="header-img"src="https://i.pinimg.com/564x/3c/71/8d/3c718da15e82737c811c709bb8d22903.jpg"/>
+        </div>
+
+        <nav id="nav-bar">
+          <ul>
+            <li><a class="nav-link" href="#features">Features</a></li>
+            <li><a class="nav-link" href="#aboutUs">About Us</a></li>
+            <li><a class="nav-link" href="#pricing">Pricing</a></li>
+          </ul>
+        </nav>
+      </header>
+      <section id="firstbox">
+        <h2 class="title">Awaken your senses with every sip</h2>
+        <div class ="coffee-box">
+            <div class="coffee-background">
+                <img id ="coffee"src="https://starbucks.ph/seed_data/FRAPCOF_CoffeeJellyFrappuccino.jpg" alt="coffee" srcset="">
+                
+              </div>
+        </div>
+        <form id="form" action="https://www.freecodecamp.com/email-submit">
+          <label for="email">
+            <input id="email" type="email" name="email" placeholder="Enter your email address">
+            <input class="btn-sub" id="submit" type="submit" >
+          </label>
+        </form>
+      </section>
+
+      <div class="container">
+        <section id="features">
+          <hr/>
+          <div class="sec-title">FREATURES</div>
+          <div class="grid">
+            <div class="icon"><i class="fas fa-coffee" style="color: #1f512e;"></i></div>
+            <div class="desc">
+              <h2>Specialty Coffee and Artisanal Roasting</h2>
+              <p class="features-para">
+                Highlight the uniqueness and quality of your coffee offerings. Showcase your commitment to sourcing the finest beans from around the world and your expertise in artisanal roasting techniques. Describe the flavor profiles and tasting notes of your coffee to entice coffee enthusiasts. Use high-quality images to showcase the brewing process and the rich, aromatic cups of coffee you serve.
+              </p>
+            </div>
+          </div>
+          <div class="grid">
+            <div class="icon"><i class="fas fa-store"style="color: #1f512e;"></i></div>
+            <div class="desc">
+              <h2>Relaxing and Cozy Atmosphere</h2>
+              <p class="features-para">
+                Emphasize the inviting ambiance of your coffee shop. Use captivating visuals to showcase the comfortable seating areas, cozy corners, and warm lighting. Describe the welcoming atmosphere that encourages customers to unwind, socialize, or work in a comfortable setting. Highlight any unique features, such as a fireplace, outdoor seating, or a dedicated reading corner, that add to the overall experience.
+              </p>
+            </div>
+          </div>
+          <div class="grid">
+            <div class="icon">
+              <i class="fas fa-check-circle" style="color: #1f512e;"></i>
+            </div>
+            <div class="desc">
+              <h2>Unique Coffee Selection</h2>
+              <p class="features-para">
+                highlight the wide variety of coffee beans, blends, and flavors available at your coffee shop. Emphasize the unique and specialty nature of your offerings, such as single-origin beans or organic options. Showcase your commitment to quality by describing the sourcing and roasting processes. Use appealing visuals to showcase different types of coffee and brewing methods.
+              </p>
+            </div>
+          </div>
+          <hr/>
+        </section>
+
+        <section id="aboutUs">
+         
+          <div class="sec-title">ABOUT US</div>
+          <div id="vid-box">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/yz6o31J-eUk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+          </div>
+        </section>
+       
+        <div class="sec-title">OUR COFFEE</div>
+        <section id="pricing">
+          <div class="product" id="IcedClassic">
+            <div class="level">Iced Classic Chocolate</div>
+            <img  class="cofe" src="https://starbucks.ph/seed_data/FRAPCRE_ChocolateCreamFrappuccino.jpg" alt="" srcset="">
+            <h2>$6</h2>
+            <ol>
+              <li>Lorem ipsum.</li>
+              <li>Lorem ipsum.</li>
+              <li>Lorem ipsum dolor.</li>
+              <li>Lorem ipsum.</li>
+            </ol>
+            <button class="btn">Select</button>
+          </div>
+          <div class="product" id="ChocolateMilk">
+            <div class="level">Iced Chocolate Milk</div>
+            <img  class="cofe"src="https://starbucks.ph/seed_data/IESP_IcedWhiteChocolateMocha.jpg" alt="" srcset="">
+            <h2>$9</h2>
+            <ol>
+              <li>Lorem ipsum.</li>
+              <li>Lorem ipsum.</li>
+              <li>Lorem ipsum dolor.</li>
+              <li>Lorem ipsum.</li>
+            </ol>
+            <button class="btn">Select</button>
+          </div>
+          <div class="product" id="IcedCoffee">
+            <div class="level">Iced Coffee with Milk</div>
+            <img  class="cofe" src="https://globalassets.starbucks.com/assets/062aac2b949a40e188e832c868803b58.jpg?impolicy=1by1_wide_topcrop_630" alt="" srcset="">
+            <h2>$12</h2>
+            <ol>
+              <li>Lorem ipsum.</li>
+              <li>Lorem ipsum.</li>
+              <li>Lorem ipsum dolor.</li>
+              <li>Lorem ipsum.</li>
+            </ol>
+            <button class="btn">Select</button>
+          </div>
+        </section>
+        <footer>
+          <ul>
+            <li><a class="footer-list" href="#">Privacy</a></li>
+            <li><a class="footer-list" href="#">Terms</a></li>
+            <li><a class="footer-list" href="#">Contact</a></li>
+          </ul>
+          <span>Copyright 2023, Brigette Jane Hernandez</span>
+        </footer>
+
+    </div>
+
+</div>
+</body>
+</html>
